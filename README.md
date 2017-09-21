@@ -6,7 +6,7 @@ Currently, this bot can automatically verify reports about XSS, SQLi, and Open R
 
 ## Security: 
 
-AutoTriageBot is effectively SSRF as a Service. In order to securely run AutoTriageBot, it must be run in an isolated environment. It is **highly** recommended to set up a blacklist blocking AutoTriageBot from reaching any potentially dangerous IP addresses. See [Architecture.md](docs/Architecture.md) for three suggested firewall configurations.  
+AutoTriageBot is effectively SSRF [Server Side Request Forgery] as a Service. In order to securely run AutoTriageBot, it must be run in an isolated environment. It is **highly** recommended to set up a blacklist blocking AutoTriageBot from reaching any potentially dangerous IP addresses. See [Architecture.md](docs/Architecture.md) for three suggested firewall configurations.  
 
 ## Usage:
 
